@@ -1,0 +1,77 @@
+* , html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-img{
+  background-image: url("../img/hawaii.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  text-align: right;
+}
+  
+.div-img{
+  padding: 200px 160px;
+}
+  
+.text-img{
+  font-size: 18px;
+}
+
+.nav-active{
+  color: gray;
+}
+.nav-active:hover{
+  color: white;
+}
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+  
+.btn-outline{
+  border: white 1px solid;
+}
+  
+.right{
+  float: right;
+  height: inherit;
+}
+  
+.skill{
+  font-size: 13px;
+  padding: 3px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.skill:hover{
+  color: black;
+  cursor: none;
+}
+  
+.text-small{
+  font-size: 14px;
+}
+  
+.dotted{
+  text-decoration: underline dotted;
+}
+  
+.btn-success{
+  height: 50px;
+  background-color: rgb(150, 201, 62);
+}
+
+.footer{
+  margin-top: 1vh;
+  align-items: center;
+  padding: 2Vh 15vh;
+  background-color: rgba(30,81,112,255);
+}
+
+.btn-footer:hover{
+  background-color: grey;
+}
