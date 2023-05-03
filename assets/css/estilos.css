@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.text-small{
+font-size: 14px;
+}
+
+.text-img{
+  font-size: 18px;
+}
+
 .bg-img{
   background-image: url("../img/hawaii.jpg");
   background-size: cover;
@@ -15,17 +23,22 @@
 .div-img{
   padding: 200px 160px;
 }
-  
-.text-img{
-  font-size: 18px;
-}
 
-.nav-active{
-  color: gray;
-}
-.nav-active:hover{
+.nav-link{
   color: white;
 }
+.nav-link:hover{
+  color: grey;
+}
+
+.nav-link-green{
+  color: #96c93e;
+}
+.nav-link-green:hover{
+  color: #198754;
+}
+
+
 
 .overlay{
   background-color: rgba(0, 0, 0, 0.5);
@@ -50,10 +63,6 @@
 .skill:hover{
   color: black;
   cursor: none;
-}
-  
-.text-small{
-  font-size: 14px;
 }
   
 .dotted{
