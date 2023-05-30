@@ -4,14 +4,6 @@
   box-sizing: border-box;
 }
 
-.text-small{
-font-size: 14px;
-}
-
-.text-img{
-  font-size: 18px;
-}
-
 .bg-img{
   background-image: url("../img/hawaii.jpg");
   background-size: cover;
@@ -24,21 +16,23 @@ font-size: 14px;
   padding: 200px 160px;
 }
 
-.nav-link{
-  color: white;
-}
-.nav-link:hover{
-  color: grey;
-}
-
 .nav-link-green{
   color: #96c93e;
 }
 .nav-link-green:hover{
-  color: #198754;
+  color: #157347;
+}
+  
+.text-img{
+  font-size: 18px;
 }
 
-
+.nav-active{
+  color: gray;
+}
+.nav-active:hover{
+  color: white;
+}
 
 .overlay{
   background-color: rgba(0, 0, 0, 0.5);
@@ -65,6 +59,10 @@ font-size: 14px;
   cursor: none;
 }
   
+.text-small{
+  font-size: 14px;
+}
+  
 .dotted{
   text-decoration: underline dotted;
 }
@@ -72,6 +70,34 @@ font-size: 14px;
 .btn-success{
   height: 50px;
   background-color: rgb(150, 201, 62);
+}
+
+.cards-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.cardTicket{
+  width: 300px;
+  height: 300px;
+}
+
+.card-1{
+  border: 2px solid blue;
+  border-radius: 0;
+}
+.card-2{
+  border: 2px solid aquamarine;
+  border-radius: 0;
+}
+.card-3{
+  border: 2px solid orange;
+  border-radius: 0;
+}
+
+#totalAPagar{
+  background-color: lightblue;
 }
 
 .footer{
