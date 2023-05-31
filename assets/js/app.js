@@ -19,6 +19,5 @@ function resumen(){
             break;
     }
     totalAPagar.value = `Total a pagar: $${resultado}`
-    console.log("resumen")
 }
 
